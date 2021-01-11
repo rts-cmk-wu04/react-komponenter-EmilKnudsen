@@ -3,14 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    background-color: #EAEAEA;
+}
+
+
+
+/* Top Section */
+.topSection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 
 
 /* Travel Section */
-
 .travel {
     width: 372px;
     height: 471px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 50px;
 }
 .travelContent {
     padding: 20px 40px;
@@ -23,13 +37,18 @@
 }
 .travel .travelHeader {
     font-size: 28px;
+    color: #303336;
     font-weight: bold;
     margin-bottom: 10px;
 }
 .travel .travelText {
     font-size: 16px;
+    color: #7B8591;
 }
 .travel .travelImg {
     width: 372px;
     height: 236px;
 }
+
+
+
