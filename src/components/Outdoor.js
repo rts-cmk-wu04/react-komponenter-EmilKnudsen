@@ -1,4 +1,4 @@
-import '../App.css';
+import './Outdoor.css';
 
 function Outdoor() {
   return (
