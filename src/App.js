@@ -1,27 +1,16 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import News from "./components/News";
+import LatestNews from './components/LatestNews';
+import News from "./components/News"
 
 function App() {
-  var [newsContent, setNewsContent] = useState([]);
-
-  useEffect(function() {
-    fetch("./news.json")
-      .then(function(response) {
-        return response.json ();
-      })
-      .then (function(data) {
-        setNewsContent(data);
-      })
-}, []);
 
   return (
     <div className="App">
-      <div className="newsBox">
-      <p className="newsHeader">LATEST NEWS</p>
-      {newsContent.map(content => <News image={content.image} title={content.title} text={content.text} color={content.color} />)}
-      <a href="#" className="newsLink">MORE NEWS</a>
-    </div>
+      <LatestNews/>
+      <div class="newsSection">
+      <News title="FOOD & LIFESTYLE" image="./images/img5.png" color="#E44385" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam" />
+      <News title="FASHION" image="./images/img6.png" color="#0AACDC" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam" />
+      </div>
     </div>
 
   );
