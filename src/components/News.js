@@ -1,6 +1,6 @@
 import "./News.css";
 
-export default function Cards({image, title, text, color}) {
+export default function News({image, title, text, color}) {
     return (
         <>
         <div className="news">
