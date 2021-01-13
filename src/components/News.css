@@ -1,0 +1,41 @@
+.newsBox{
+    width: 372px;
+    height: 877px;
+    text-align: center;
+}
+.newsHeader{
+    font-size: 18px;
+    background: #3F51B5;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+.newsTitle {
+    font-size: 11px;
+    text-align: left;
+}
+.newsText {
+    font-size: 16px;
+    color: #707070;
+    width: 90%;
+    text-align: left;
+}
+.newsImage {
+    width: 127px;
+    height: 122px;
+    padding: 0 20px;
+}
+.news{
+    display: flex;
+    margin-bottom: 20px;
+}
+.newsContent {
+    display: block;
+}
+.newsLink {
+    font-size: 14px;
+    color: #7B8591;
+    text-decoration: none;
+    font-weight: bold;
+}

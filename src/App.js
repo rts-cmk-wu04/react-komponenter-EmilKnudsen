@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import News from "./components/News";
 
 function App() {
+  var [newsContent, setNewsContent] = useState([]);
+
+  useEffect(function() {
+    fetch("./news.json")
+      .then(function(response) {
+        return response.json ();
+      })
+      .then (function(data) {
+        setNewsContent(data);
+      })
+}, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="newsBox">
+      <p className="newsHeader">LATEST NEWS</p>
+      {newsContent.map(content => <News image={content.image} title={content.title} text={content.text} color={content.color} />)}
+      <a href="#" className="newsLink">MORE NEWS</a>
     </div>
+    </div>
+
   );
 }
-
 export default App;
