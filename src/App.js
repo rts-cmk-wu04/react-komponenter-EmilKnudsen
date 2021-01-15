@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Outdoor from './components/Outdoor.js';
+import Travel from "./components/Travel";
+import Outdoor from "./components/Outdoor";
 
 function App() {
   return (
     <>
-    <Outdoor/>
+    <div className="topSection">
+    <Travel></Travel>
+    <Outdoor></Outdoor>
+    </div>
     </>
   );
 }
