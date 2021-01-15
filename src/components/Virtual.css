@@ -1,0 +1,25 @@
+.virtual {
+    width: 372px;
+    height: 371px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+.virtualHeader {
+    font-size: 25px;
+    padding: 20px;
+}
+.virtualImage {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.virtualCategory {
+    position: absolute;
+    bottom: 1em;
+    right: 5em;
+    font-size: 11px;
+    color: #D9A34A;
+    font-weight: bold;
+}
