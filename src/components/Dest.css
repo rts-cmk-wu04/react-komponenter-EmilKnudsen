@@ -1,0 +1,22 @@
+.dest{
+    position: relative;
+    width: 372px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+.destImage {
+    position: absolute;
+    z-index: -1;
+}
+.destTitle {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+.destText {
+    font-size: 16px;
+    color: white;
+    padding: 0 20px;
+    width: 80%;
+}

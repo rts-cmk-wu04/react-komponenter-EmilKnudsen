@@ -1,0 +1,42 @@
+.allDigests{
+    width: 372px;
+    height: 971px;
+    border-radius: 10px;
+    text-align: center;
+}
+.digestNews{
+    color: white;
+    width: 372px;
+    height: 55px;
+    background-color: #3CA773;
+    border-radius: 10px 10px 0 0;
+}
+.digestNewsText {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.digestSection {
+    padding: 30px;
+}
+.Digest {
+    border-bottom: 2px solid #7B8591;
+    margin-bottom: 30px;
+}
+.digestNumber {
+    border-radius: 50%;
+    width: 8%;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.digestTitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
+.digestText {
+    font-size: 16px;
+    color: #7B8591;
+}
