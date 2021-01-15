@@ -1,0 +1,18 @@
+.times {
+    width: 372px;
+    height: 471px;
+    border-radius: 10px;
+    position: relative;
+}
+.timesHead {
+    display: flex;
+    align-items: center;
+}
+.timesLogo{
+    width: 44px;
+    height: 44px;
+}
+.timesBackground {
+    position: absolute;
+    z-index: -1;
+}

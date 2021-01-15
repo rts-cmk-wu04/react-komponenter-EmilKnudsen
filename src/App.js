@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
+import Times from "./components/Times";
 
 function App() {
+  var [timesContent, setTimesContent] = useState([]);
+
+  useEffect(function() {
+    fetch("./times.json")
+      .then(function(response) {
+        return response.json ();
+      })
+      .then (function(data) {
+        setTimesContent(data);
+      })
+}, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="allTimess">
+      {timesContent.map(content => <Times logo={content.logo} header={content.header} text={content.text} link={content.link} background={content.background} />)}
     </div>
   );
 }
-
 export default App;
