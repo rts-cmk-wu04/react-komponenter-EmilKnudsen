@@ -1,0 +1,47 @@
+/* Outdoor Section */
+.outdoor {
+    width: 771px;
+    height: 471px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    align-items: center;
+}
+.outdoor .outdoorContent {
+    padding: 0px 0px 0px 40px;
+}
+.outdoor .outdoorImg {
+    width: 293px;
+    height: 375px;
+}
+.outdoor .outdoorLink {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #005AEE;
+    padding: 8px 24px;
+    border-radius: 20px;
+}
+.outdoor .outdoorP{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.outdoor .outdoorCategory {
+    font-size: 45px;
+    font-weight: bold;
+    color: #303336;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.outdoor .outdoorText {
+    font-size: 16px;
+    color: #7B8591;
+    margin-bottom: 44px;
+}
+.outdoor .outdoorImage{
+    width: 99px;
+    height: 104px;
+    margin: 10px;
+}
