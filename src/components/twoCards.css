@@ -1,0 +1,18 @@
+.allTwos {
+    display: flex;
+}
+.twoCards {
+    width: 169px;
+    height: 171px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.twoImage {
+    padding: 30px 10px 10px;
+}
+.twoText {
+    font-size: 14;
+    color: white;
+    font-weight: bold;
+}

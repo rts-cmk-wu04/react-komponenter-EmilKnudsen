@@ -1,0 +1,12 @@
+[
+    {
+        "image": "./images/design.png",
+        "text": "DESIGN",
+        "color": "#53BBB3"
+    },
+    {
+        "image": "./images/education.png",
+        "text": "EDUCATION",
+        "color": "#358ED7"
+    }
+]
