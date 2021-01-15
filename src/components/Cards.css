@@ -1,0 +1,30 @@
+.App{
+    display: flex;
+    justify-content: space-between;
+}
+.cards {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    text-align: left;
+}
+.cardsP{
+    text-align: end;
+    padding: 5px 20px;
+}
+.cardsImage {
+    width: 73px;
+    height: 73px;
+    margin-bottom: 20px;
+}
+.cardsTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 0 20px;
+}
+.cardsText {
+    font-size: 16px;
+    color: white;
+    padding: 0 20px;
+}

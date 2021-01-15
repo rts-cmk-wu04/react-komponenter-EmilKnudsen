@@ -1,0 +1,43 @@
+.places{
+    width: 771px;
+    height: 475px;
+    border-radius: 10px;
+    position: relative;
+}
+.placesLogoText {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    margin-bottom: 7em;
+}
+.placesHeart {
+    width: 21px;
+    height: 19px;
+    padding-left: 33em;
+}
+.placesLogo {
+    width: 23px;
+    height: 23px;
+}
+.placesIconText {
+    font-weight: bold;
+    padding: 0 10px;
+    color: white;
+    font-size: 11px;
+}
+.placesHeader {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: left;
+    padding: 0 30px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.placesText {
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}

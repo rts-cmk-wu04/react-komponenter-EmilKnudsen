@@ -1,0 +1,37 @@
+.allCollections{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.collection{
+    height: 372px;
+    width: 372px;
+    border-radius: 10px;
+    position: relative;
+}
+.collectionImage {
+    width: 372px;
+    height: 272px;
+}
+.collectionText {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.collectionProfile {
+    position: absolute;
+    left: 20px;
+    top: 240px;
+}
+.collectionTitle {
+    font-size: 18px;
+    margin: 35px 0 0;
+}
+.collectionBy {
+    font-size: 14px;
+    color: #7B8591;
+    margin: 0px;
+}
