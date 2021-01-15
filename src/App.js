@@ -1,6 +1,8 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+
 import Cards from "./components/Cards";
+import Travel from "./components/Travel";
+import Outdoor from "./components/Outdoor";
 
 function App() {
   var [cardsContent, setCardsContent] = useState([]);
@@ -19,6 +21,11 @@ function App() {
     <div className="App">
       {cardsContent.map(content => <Cards image={content.image} title={content.title} text={content.text} color={content.color} />)}
     </div>
+    <>
+    <div className="topSection">
+    <Travel></Travel>
+    <Outdoor></Outdoor>
+    </>
   );
 }
 export default App;
