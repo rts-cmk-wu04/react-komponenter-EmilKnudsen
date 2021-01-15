@@ -1,0 +1,27 @@
+[
+    {
+        "number": "1",
+        "title": "Technology",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit",
+        "color": "#D9A34A"
+    },
+    {
+        "number": "2",
+        "title": "Nature",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit",
+        "color": "#007AC2"    
+    },
+    {
+        "number": "3",
+        "title": "Design",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit",
+        "color": "#3CA773"    
+    },
+    {
+        "number": "4",
+        "title": "Development",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit",
+        "color": "#53BBB3"      
+    }
+    
+]
