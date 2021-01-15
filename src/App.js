@@ -1,5 +1,5 @@
 import './App.css';
-
+import Places from "./components/Places";
 import Collection from "./components/Collection";
 import Cards from "./components/Cards";
 import Travel from "./components/Travel";
@@ -29,6 +29,7 @@ function App() {
       {cardsContent.map(content => <Cards image={content.image} title={content.title} text={content.text} color={content.color} />)}
     </div>
     <>
+    <Places/>
     <div className="topSection">
     <Travel></Travel>
     <Outdoor></Outdoor>
