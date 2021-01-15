@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
+import Two from "./components/twoCards";
 import { useEffect, useState } from 'react';
 import Digest from "./components/Digest";
 import Dest from "./components/Dest";
@@ -12,10 +14,12 @@ import Travel from "./components/Travel";
 import Outdoor from "./components/Outdoor";
 
 function App() {
+
   var [collectionContent, setCollectionContent] = useState([]);
   var [digestContent, setDigestContent] = useState([]);
   var [cardsContent, setCardsContent] = useState([]);
   var [digestContent, setDigestContent] = useState([]);
+  var [twoContent, setTwoContent] = useState([]);
 
   useEffect(function() {
 
@@ -48,9 +52,16 @@ function App() {
         return response.json ();
       })
       .then (function(data) {
-        setDigestContent(data);
+        setTwoContent(data);
       })
-        setDestContent(data);
+
+    fetch("./twocards.json")
+      .then(function(response) {
+        return response.json ();
+      })
+      .then (function(data) {
+        setTwoContent(data);
+      })
 }, []);
 
   return (
@@ -73,7 +84,9 @@ function App() {
       </div>
       {cardsContent.map(content => <Cards image={content.image} title={content.title} text={content.text} color={content.color} />)}
     </div>
-
+    <div className="allTwos">
+      {twoContent.map(content => <Two image={content.image} text={content.text} color={content.color}/>)}
+    </div>
     </div>
     <>
     <LatestNews/>
