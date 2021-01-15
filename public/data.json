@@ -1,0 +1,26 @@
+[
+    {
+        "image": "./images/truck.png",
+        "title": "ON-TIME DELIVERY",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+        "color": "#005AEE"
+    },
+    {
+        "image": "./images/box.png",
+        "title": "PARCELS",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+        "color": "#FFA767"
+    },
+    {
+        "image": "./images/paper.png",
+        "title": "QUALITY CHECK",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+        "color": "#0AACDC"
+    },
+    {
+        "image": "./images/phone.png",
+        "title": "CUSTOMER SERVICE",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+        "color": "#597AEF"
+    }
+]
