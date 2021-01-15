@@ -11,6 +11,7 @@
         "header": "THE NEW YORK TIMES",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
         "link": "READ MORE",
-        "background": "./images/times1.png"
+        "background": "./images/times1.png",
+        "textColor": "#303336"
     }
 ]

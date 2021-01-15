@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="allTimess">
-      {timesContent.map(content => <Times logo={content.logo} header={content.header} text={content.text} link={content.link} background={content.background} />)}
+      {timesContent.map(content => <Times logo={content.logo} header={content.header} text={content.text} link={content.link} background={content.background} color={content.color} textColor={content.textColor}/>)}
     </div>
   );
 }
